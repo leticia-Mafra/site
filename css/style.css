@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria:  rgba(255, 255, 255, 1);
+    --cor-terciaria: rgba(55, 120, 250, 1);
+
+    --fonte-primaria: 'Space Grotesk', sans-serif;
+    
+
+}
+
+.cabecalho_menu li{
+    margin: 0 1rem;
+    list-style: none;
+    display: flex;
+}
+
+.cabecalho_menu ul {
+
+    list-style: none;
+    display: flex;
+}
+
+h1 {
+    font-family: var(--fonte-primaria);
+    font-size: 60px;
+    font-weight: 300;
+}
