@@ -1,18 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 *{
     margin: 0;
     padding: 0;
 }
 
+
 :root{
+    
     --cor-primaria: #000000;
     --cor-secundaria:  rgba(255, 255, 255, 1);
     --cor-terciaria: rgba(55, 120, 250, 1);
+    --cor-quarta: #F5F5F5;
 
     --fonte-primaria: 'Space Grotesk', sans-serif;
     
 
+}
+body{
+    background-color: var(--cor-quarta);
+    color: var(--cor-primaria);
+    width: 90%;
+    margin: auto;
+    font-family: var(--fonte-primaria);
 }
 
 .cabecalho_menu li{
@@ -31,4 +41,80 @@ h1 {
     font-family: var(--fonte-primaria);
     font-size: 60px;
     font-weight: 300;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+   padding: 1.5rem 0;
+    
+}
+
+.logo{
+    font-family: var(--fonte-primaria);
+    font-size: 35px
+    
+}
+.logo a{
+     text-decoration: none;
+     color: var(--cor-terciaria);
+}
+.cabecalho_botao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    font-family: var(--fonte-primaria);
+    font-size: 18px
+}
+
+.cabecalho_botao a{
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+
+.cabecalho_botao_borda{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px
+}
+.cabecalho_botao_borda a{
+    background-color: var(--cor-terciaria);
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    border: 0.5rem  solid var(--cor-terciaria);
+    border-radius: 5rem;
+    padding: 0.5rem 1.5rem;
+    font-family: var(--fonte-primaria);
+}
+.cabecalho_menu{
+    font-family: var(--fonte-primaria);
+    font-size: 12px
+}
+.cabecalho_menu a{
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-family: var(--fonte-primaria);
+}
+.sessao1{
+    padding: 5rem 0;
+
+}
+.sessao2{
+    display: flex;
+    justify-content: center;
+    font-weight: 200;
+    font-family: var(--fonte-primaria);
+    text-align: center;
 }
