@@ -240,10 +240,90 @@ h1 {
     background-color: var(--cor-terciaria);
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
-    height: 750px;
+    height: 800px;
     mix-blend-mode: normal;
     margin-top: 100px;
     z-index: -1;
 
+
+}
+
+.sessao7{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-inline: 2rem;
+    
+    
+   
+    
+}
+    .titulo_quarto{
+        margin-top: 5rem;
+        font-size: 70px;
+        color: #FFFFFF;
+        font-family: var(--fonte-primaria);
+
+ }
+
+    .textinho{
+        font-size: 15px;
+        color: #FFFFFF;
+        font-family: var(--fonte-primaria);
+        font-weight: 100;
+    }
+
+  
+    .botao_more {
+    background-color: var(--cor-quarta);
+    color: var(--cor-primaria);
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 15px 33px;
+    border-radius: 100px;
+    border-style: none;
+    width: 150px;
+    padding: 15px 30px;
+
+    }
+    .div_textinho{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        margin-top: 90px;
+        gap: 2rem;
+       font-weight: 700;
+     }
+     
+     .linha {
+        width: 100%;
+     }
+
+     .linha img{
+        width: 100%;
+        margin-top: 80px;
+     }
+     .sessao8{
+        flex-direction: column;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-left: 140px;
+
+        
+    }
+        .titulizinho{
+            margin-top: 6rem;
+            font-size: 25px;
+            color: #FFFFFF;
+            font-family: var(--fonte-primaria);
+    
+     }
+
+.T1{
+    color: #FFFFFF;
+    font-weight: 100;
+    margin-top: 30px;
 
 }
