@@ -327,3 +327,34 @@ h1 {
     margin-top: 30px;
 
 }
+.sessao9{
+
+    display: grid;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: -110px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-quarta);
+
+}
+.sessao10{
+    display: grid;
+    gap: 1.5rem;
+    justify-content:end;
+    margin-top: -90px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-quarta);
+    margin-right: 350px;
+
+}
+.sessao11{
+    display: grid;
+    gap: 1.5rem;
+    justify-content:end;
+    margin-top: -110px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-quarta);
+    margin-right: 80px;
+
+}
